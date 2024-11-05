@@ -1,0 +1,8 @@
+digraph G {
+"world" -> "av1"[label="Broadcaster: /static_transform_publisher_1730763453534571100\nAverage rate: 10.174 Hz\nMost recent transform: 1730764036.084 ( -0.044 sec old)\nBuffer length: 4.915 sec\n"];
+"world" -> "av2"[label="Broadcaster: /static_transform_publisher_1730763509275359721\nAverage rate: 10.176 Hz\nMost recent transform: 1730764036.093 ( -0.052 sec old)\nBuffer length: 4.914 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1730764036.040"[ shape=plaintext ] ;
+ }->"world";
+}

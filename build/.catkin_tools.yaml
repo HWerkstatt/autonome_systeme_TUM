@@ -1,0 +1,6 @@
+devel_space: /home/haowen/as_workspace/devel
+install: false
+install_space: /home/haowen/as_workspace/install
+profile: default
+source_space: /home/haowen/as_workspace/src
+workspace: /home/haowen/as_workspace
