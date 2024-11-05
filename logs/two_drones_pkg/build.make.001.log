@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target frames_publisher_node[0m
+[ 50%] Built target plots_publisher_node
+[ 75%] [32mBuilding CXX object CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o[0m
+[01m[K/home/haowen/as_workspace/src/two_drones_pkg/src/frames_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid FramesPublisherNode::onPublish(const ros::TimerEvent&)[m[K’:
+[01m[K/home/haowen/as_workspace/src/two_drones_pkg/src/frames_publisher_node.cpp:61:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf::Quaternion[m[K’ has no member named ‘[01m[KsetPRY[m[K’; did you mean ‘[01m[KsetRPY[m[K’?
+   61 |     q_av1.[01;31m[KsetPRY[m[K(0, 0, yaw);
+      |           [01;31m[K^~~~~~[m[K
+      |           [32m[KsetRPY[m[K
+make[2]: *** [CMakeFiles/frames_publisher_node.dir/build.make:63: CMakeFiles/frames_publisher_node.dir/src/frames_publisher_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:214: CMakeFiles/frames_publisher_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
